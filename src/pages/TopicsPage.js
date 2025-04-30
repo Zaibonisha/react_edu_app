@@ -108,7 +108,7 @@ const TopicsPage = () => {
   return (
     <div>
       <h2 style={{ color: '#f67280' }}>Explore Educational Topics</h2>
-      <h3 style={{ color: 'blue' }}>Select a topic and view resources below and scroll down to view resources</h3>
+      <h3 style={{ color: 'blue' }}>Select a topic to view resources below and scroll down to view resources for your selected topic</h3>
 
       <div className="topics-grid">
         {topics.map((topic, index) => (
